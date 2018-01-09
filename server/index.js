@@ -3,8 +3,8 @@ const app = express();
 const PORT = 3000;
 const bodyParser = require('body-parser');
 
-// app.use(express.static(__dirname + '/../client/dist'));
-// app.use(bodyParser.json());
+app.use(express.static(__dirname + '/../client/dist'));
+app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
   console.log('Got an index request');

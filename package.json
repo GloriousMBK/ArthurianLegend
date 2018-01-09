@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server-dev": "nodemon server/index.js"
+    "server-dev": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
